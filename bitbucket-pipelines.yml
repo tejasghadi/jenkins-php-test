@@ -9,5 +9,4 @@ pipelines:
           - composer --version
           - ls
           - phpunit --version
-          - composer install
           - phpunit -c tests/phpunit.xml
